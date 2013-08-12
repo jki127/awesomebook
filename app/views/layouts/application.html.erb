@@ -12,12 +12,14 @@
         <div class="container">
             <a class="brand" href="#">Awesomebook</a>
             <ul class="nav">
-                <li><%=link_to "Everything",statuses_path %></li>    
+                <li><%=link_to "Everything",statuses_path %></li>
             </ul>
         </div>
         </div>
     </div>
 <div class="container">
+    <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
 <%= yield %>
 </div>
 </body>
