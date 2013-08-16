@@ -10,10 +10,12 @@
     <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
-            <a class="brand" href="#">Awesomebook</a>
+            <%=link_to "Awesomebook", root_path, class: 'brand'%>
             <ul class="nav">
                 <li><%=link_to "Everything",statuses_path %></li>
             </ul>
+            <div class="btn btn-danger pull-right"><%=link_to "Logout",destroy_user_session_path, method: :delete, style: 'color: white'%></div>
+
         </div>
         </div>
     </div>
