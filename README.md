@@ -1,6 +1,4 @@
 awesomebook
 ===========
 
-Learning the ways of Rails
-
-Live: http://awesomebook-jayson.rhcloud.com/statuses
+Learning the ways of Rails using Treehouse
